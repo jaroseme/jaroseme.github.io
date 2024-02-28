@@ -6,8 +6,6 @@ mystyle.css
 } 
 
 
-
-
 .city {
 	 text-align: left;
 	 width:500px;
@@ -75,6 +73,17 @@ header {
  /* background-color: #ebddc9;*/
 }
 
+.inline{
+    display: block;
+    border-top-style: solid;
+    border-top-color: #C1AFD5;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+
+
+}
+
 
 h1 {
     font-family: 'Roboto', sans-serif; 
@@ -89,10 +98,11 @@ body {
     padding: 0;
     color: #897561;
     text-align: center;
-    font-size:12pt;
+    font-size:10pt;
     font-family: 'Roboto', sans-serif; 
     font-weight: lighter;
     /* position : relative;/*
 
 }
+
 
