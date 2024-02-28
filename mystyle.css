@@ -7,21 +7,15 @@ mystyle.css
 
 .links{
     position:absolute;
-top: 30%;
+top: 25%;
 }
 .bio {
   position:absolute;
-top: 40%;
+top: 35%;
 }
 .homeimage{
   position:absolute;
 top: 50%;
-}
-h1{
-	font-size:32pt;
-}
-body{
-	font-size:24pt;
 }
 
 @media only screen and (min-width: 480px) {
