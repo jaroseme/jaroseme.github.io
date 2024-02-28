@@ -1,0 +1,98 @@
+mystyle.css  
+
+@font-face { 
+  font-family: 'Roboto'; 
+  src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+} 
+
+
+
+
+.city {
+	 text-align: left;
+	 width:500px;
+  margin:auto;
+  padding-top:60px;
+  padding-bottom:200px;
+  position:relative;
+}
+
+.links {
+	text-align: left;
+	 width:300px;
+	 padding-left: 40px;
+	 font-size:24pt;
+	 position: fixed;
+}
+
+
+    /* unvisited link */
+a:link {
+  color: #897561;
+}
+
+/* visited link */
+a:visited {
+  color: #897561;
+}
+
+/* mouse over link */
+a:hover {
+  color: #C1AFD5;
+}
+
+
+.homeimage{
+position : absolute;
+  padding-right: 60px;
+  padding-bottom: 80px;
+  bottom : 0;
+  right: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.logo{
+border-style: inset;
+border-color: #897561;
+}
+
+header {
+	padding: 40px;
+  text-align: left;
+  font-size: 18px;
+}
+
+
+.footer {
+  padding: 10px;
+  color: #897561;
+  text-align: right;
+  position : fixed;
+  padding-right: 60px;
+  bottom : 0;
+  right: 0;
+ /* background-color: #ebddc9;*/
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: lighter;
+    font-size:24pt;
+    margin: 0 0 0.8rem;
+}
+ 
+body {
+	background-color: #ebddc9;
+    margin: auto;
+    padding: 0;
+    color: #897561;
+    text-align: center;
+    font-size:10pt;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: lighter;
+    /* position : relative;/*
+
+}
+
