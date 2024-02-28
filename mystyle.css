@@ -7,11 +7,12 @@ mystyle.css
 
 .links{
     position:absolute;
-top: 10%;
+top: 20%;
 }
 .bio {
   position:absolute;
-top: 20%;
+top: 30%;
+text-size: 40pt;
 }
 .homeimage{
   position:absolute;
