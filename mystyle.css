@@ -42,6 +42,7 @@ a:hover {
 
 .homeimage{
 position : absolute;
+	 top: 50%;
   padding-right: 60px;
   padding-bottom: 80px;
   bottom : 0;
