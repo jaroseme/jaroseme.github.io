@@ -5,7 +5,6 @@ mystyle.css
   src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
 } 
 
-@media only screen and (max-width: 480px) {
 .links{
     position:absolute;
 top: 10%;
@@ -18,7 +17,8 @@ top: 20%;
   position:absolute;
 top: 50%;
 }
-}
+
+@media only screen and (min-width: 480px) {
 
 .city {
 	 text-align: left;
@@ -98,7 +98,7 @@ header {
 
 
 }
-
+}
 
 h1 {
     font-family: 'Roboto', sans-serif; 
