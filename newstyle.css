@@ -36,7 +36,7 @@ body {
     margin: 0;
     padding-top: 80px; /* Push content below the fixed header */
     color: #897561;
-    font-size:12pt;
+    font-size:24pt;
     font-family: 'Roboto', sans-serif; 
     font-weight: lighter;
 }
