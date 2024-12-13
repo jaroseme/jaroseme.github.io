@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="newstyle.css">
+<link rel="icon" type="image/x-icon" href="faviconjoann.png">
+
+	</head>
+<header style="max-height: 80vh; overflow-y: auto;">
+	<div class="galleryheader">
+	  <a href="index.HTML" target="_blank"><img class="logo" src="images/joannlogo.png" alt="Logo" style="width:30px;height:30px;"> 
+    <h1>joann.studio </h1> </a>
+    <!--  <button onclick="toggleVisibility('myDIV2025')">2025</button>!-->
+<br>
+      <button onclick="toggleVisibility('myDIV2024')">2024</button>
+<br>
+      <button onclick="toggleVisibility('myDIV2023')">2017-2023</button>
+  </div>
+</header>
+
+<body>
+
+
+<!--<div id="myDIV2025" style="display:none;max-height: 80vh; overflow-y: auto;">
+  <img class="my2025" src="images/img_2127.jpg"  width="100%">
+    <img class="my2025" src="images/img_2124.jpg"  width="100%">
+</div>!-->
+
+
+
+
+<div id="myDIV2024" style="display:none;max-height: 80vh; overflow-y: auto;">
+  <img class="my2024" src="stirrup2.jpg"  width="100%">
+</div>
+
+
+
+
+<div id="myDIV2023" style="display:none;max-height: 80vh; overflow-y: auto;">
+  <img class="my2023" src="img_2025.jpg"  width="100%">
+</div>
+
+<script>
+function toggleVisibility(divId) {
+    // First, find all the divs and hide them
+    var divs = document.querySelectorAll("div[id^='myDIV']");
+    divs.forEach(function(div) {
+        if (div.id !== divId) {
+            div.style.display = "none"; // Hide all other divs
+        }
+    });
+
+    // Now toggle the clicked div
+    var x = document.getElementById(divId);
+    if (x.style.display === "none") {
+        x.style.display = "block"; // Show the clicked div
+    } else {
+        x.style.display = "none"; // Hide the clicked div if it's already visible
+    }
+}
+</script>
+
+
+</body>
+
+</html>
