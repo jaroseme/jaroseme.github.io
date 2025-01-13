@@ -1,12 +1,12 @@
 @font-face { 
-  font-family: 'Roboto'; 
+  font-family: 'A-OTF Ryumin Pr6N'; 
   src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
 } 
 
 
 
 h1 {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'A-OTF Ryumin Pr6N', sans-serif; 
     font-weight: lighter;
     font-size:40pt;
     color: #897561;
